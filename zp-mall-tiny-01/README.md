@@ -1,0 +1,2 @@
+mall整合SpringBoot+MyBatis搭建基本骨架
+mybatis的逆向工程中会生成实例及实例对应的example，example用于添加条件，相当where后面的部分
