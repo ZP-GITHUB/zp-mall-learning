@@ -1,0 +1,5 @@
+mall整合SpringSecurity和JWT实现认证和授权
+JWT实现认证和授权的原理
+用户调用登录接口，登录成功后获取到JWT的token；
+之后用户每次调用接口都在http的header中添加一个叫Authorization的头，值为JWT的token；
+后台程序通过对Authorization头中信息的解码及数字签名校验来获取其中的用户信息，从而实现认证和授权。
