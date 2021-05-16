@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZpMallTinyApplication {
+public class ZpMallTiny07Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZpMallTinyApplication.class, args);
+		SpringApplication.run(ZpMallTiny07Application.class, args);
 	}
 
 }
