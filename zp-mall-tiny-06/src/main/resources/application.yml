@@ -19,6 +19,13 @@ spring:
         min-idle: 0 # 连接池中的最小空闲连接
     timeout: 3000ms # 连接超时时间（毫秒）
   data:
+    elasticsearch:
+      repositories:
+        enabled: true
+        # 下面这两种方式官方已经不推荐了，建议改在elasticsearch配置类里配置
+      cluster-nodes: 192.168.1.100:9300 # es的连接地址及端口号
+      cluster-name: elasticsearch # es集群的名称
+
     # mongodb配置
     mongodb:
 #      host: 192.168.1.100 # mongodb的连接地址
